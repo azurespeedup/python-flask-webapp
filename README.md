@@ -32,3 +32,4 @@ Visisting webapp: https://flaskpythontrong.azurewebsites.net/
 
 Test the new route: https://flaskpythontrong.azurewebsites.net/macro/Kevin
 
+Re-deploy/update web app anytime using: az webapp up
