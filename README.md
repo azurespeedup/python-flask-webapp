@@ -10,3 +10,18 @@ Sample applications are available for the other frameworks here:
 If you need an Azure account, you can [create one for free](https://azure.microsoft.com/en-us/free/).
 
 [![CI](https://github.com/azurespeedup/python-flask-webapp/actions/workflows/main.yml/badge.svg)](https://github.com/azurespeedup/python-flask-webapp/actions/workflows/main.yml)
+
+Clone this repo to Azure CLI: git clone https://github.com/azurespeedup/python-flask-webapp.git
+
+Create new virtual environment: python3 -m venv .venv
+
+Source/active the virtual environment: source .venv/bin/active 
+
+Verify virtual environment by running: which python
+
+Install pip: pip install -r requirements.txt
+
+Run the Python Flask webapp: flask run
+
+View the local website using port configuration (5000)
+
