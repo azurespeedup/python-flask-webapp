@@ -24,4 +24,5 @@ steps:
     source venv/bin/active
     make install
     make lint 
+  workingDirectory: $(projectRoot)
   displayName: 'install lint'
