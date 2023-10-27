@@ -33,4 +33,4 @@ if __name__ == '__main__':
 
 @app.route("/macro/<polo>")
 def macro(polo):
-    return "hello %s" % polo
+    return "hello %s" % polo % " CD test"
