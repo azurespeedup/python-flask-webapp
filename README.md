@@ -25,3 +25,10 @@ Run the Python Flask webapp: flask run
 
 View the local website using port configuration (5000)
 
+Create and deploy this webapp to Azure
+az webapp up --resource-group Azuredevops --sku F1 -n flaskpythontrong
+
+Visisting webapp: https://flaskpythontrong.azurewebsites.net/
+
+Test the new route: https://flaskpythontrong.azurewebsites.net/macro/Kevin
+
