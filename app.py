@@ -30,3 +30,7 @@ def hello():
 
 if __name__ == '__main__':
    app.run()
+
+@app.route("/macro/<polo>")
+def macro(polo):
+    return "hello %s" % polo
